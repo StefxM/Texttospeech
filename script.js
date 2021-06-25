@@ -8,9 +8,7 @@ let currentCharacter
 playButton.addEventListener('click', () => {
     playText(textInput.value)
 })
-
 pauseButton.addEventListener('click', pauseText)
-
 stopButton.addEventListener('click', stopText)
 speedInput.addEventListener('input', () => {
     stopText()
